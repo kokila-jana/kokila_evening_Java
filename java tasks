@@ -1,0 +1,143 @@
+operators
+1.	Swapping using bitwise operators without using 3 rd variable
+2.	To find last 2 digit of the given number
+3.	To find middle digit of the number
+4.	Write a program to take a five-digit number as input, square the middle digit and print number and the square.
+Input Data:
+Input an integer: 54623
+Expected Output
+Square of 6 is: 36
+5.	To find last digit of the number
+if-else
+1.	Write a program to accept the length and breadth of a shape and print if they are the same. If they are the same, print it’s a square otherwise its rectangle. 
+2.	Write a program to accept a number and check if its square is above 50 or below 50.
+3.	Write a program to accept two numbers, subtract the two numbers and check if the difference (answer) is 0 or not
+4.	Write a program to read the Computer Science marks of a student and print if the student has passed or failed. The student has passed if marks is 50 or above otherwise failed).
+5.	Write a program to accept a number and check if the number is divisible by 10.
+6.	Write a program to take a two-digit number and print the biggest digit.
+7.	Write a program to accept a value from the user. If the value entered is 1 then print “You can go out and play” otherwise “You cannot go out and play”
+8.	Write a program to accept the choice from the user. If the choice is 1 print “The exam will be easy”, otherwise print “The exam will be difficult”.
+9.	Write a Java program that functions as a basic calculator. The program will prompt the user to input two numbers and a mathematical operation (+, -, x, /). It will then perform the selected operation and display the result on the screen.
+10.	To input weight of the parcel and type of booking (`O' for ordinary and 'E' for express).
+To compute and display the charges based on the weight of the parcel as per the tariff given 
+ 
+11.	Write a program to compute the discount according to the given conditions for the purchase of laptop. to take the price of the laptop.
+to calculate the charge according to the following condition.
+ 
+Display the output as per the given format:
+ Price of laptop : 
+Discount : 
+Total Price :
+12.	A library charges fine for books returned late. To calculate the fine, define a class Library with the following .
+To input the number of days books were returned late.
+To calculate and print the fine based on the following condition:
+ First five days 40 paisa per day 
+Six to ten days 65 paisa per day 
+above 10 days 80 paisa per day
+13.	A number is said to be Buzz Number if it ends with 7 or is divisible by 7. Example: 1007 is a Buzz Number. Define a class Buzz number to read a number and check if it is a Buzz number or not.
+14.	Write a program to input a number and check whether the number is an 
+automorphic number or not.
+An automorphic number is a number whose square "ends" in the same digits 
+as the number itself.
+e.g. 52 = 25, 62 = 36, 762 = 5776
+15 .  write a program which accepts a character and prints if it is a capital letter or 
+not.
+Loop tasks
+1.	Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
+2.	Write a program that prompts the user to input a positive integer. It should then print the multiplication table of that number. 
+3.	Write a program to find the factorial value of any number entered through the keyboard. 
+4.	Write a program to print all alphabets from a to z
+5.	 Write a program to print reverse alphabets from Z to A
+6.	Write a program to print the ASCII values
+7.	 Convert the following while loop to the corresponding for loop        
+int m = 5, n = 10;
+while (n>=1)
+{
+System.out.println(m*n);n--;}
+8.	Write a Java program to check whether a number is a Harshad Number or not. Number 200 is a Harshad Number because the sum of digits (2+0+0 = 2) and 200 is divisible by 2
+9.	To find sum of divisors in the given number
+if the number is 10 then the sum of the divisors is 1+2+5+10=18
+10.	Write a program to check whether the given number is palindrome or not. Palindrome is a number when reversed it gives the same number. Example 1: If the number is 121 Reverse is 121 Hence, 121 is a Palindrome Example 2: If the number is 438 Reverse is 834 Hence, 438 is not a Palindrome
+11.	which prints if a number is an Armstrong number or not. 153 is an Armstrong number. 13+53+33 = 153.
+12.	Patterns
+Arrays
+1.	PROGRAM – LARGEST, SMALLEST AND SUM OF ELEMENTS – SINGLE DIMENSIONAL ARRAY Write a program to input integer elements into an array of size 20 and perform the following operations: (i) Display largest number from the array. (ii) Display smallest number from the array. (iii) Display sum of all the elements of the array
+2.	PROGRAM – SINGLE DIMENSIONAL ARRAY Write a program to input and store roll numbers, names and marks in 3 subjects of n number students in five single dimensional array and display the remark based on average marks as given below:(the maximum marks in the subject are 100) average marks=Total Marks /3 
+Average marks  Remarks
+ 85-100             EXCELLENT 
+75-84                DISTINCTION
+ 60-74               FIRST CLASS
+ 40-59               PASS
+ Less than 40 POOR
+3.	Array program to search an element in the  array.
+4.	Java program to find maximum and minimum element in the array
+5.	Java program to sort an Array elements in  ascending order.
+6.	Java program to sort an Array elements in descending order.
+7.	Java program to find duplicate element in the  array.
+8.	Define a class to accept values in an integer array of size 10. Find the sum of one-digit numbers and sum of two-digit numbers entered. Display them separately. Example: Input: a[] = {2,12,4,9,18,25,3,32,20,1} 
+Output: Sum of one-digit numbers: 2+4+9+3+1=19 
+Sum of two-digit numbers: 12+18+25+32+20=107
+Function tasks
+1.	Define a program Sequence1 with the following functions/methods to print the given series.. series1() – 2,4,6,8,10,12,14,16,
+series2() – 50,40,30,20,10,0
+2.	 Define a function square(a) which takes one integer value squares and prints the result. Another function cube(b) which cubes and prints.
+3.	Define a function splitDigits(int) – takes a number with any number of digits, separates and prints the digits one by one.
+ Example: If the number is 4327 then the output is 7 2 3 4  
+4.	Define a function printArmstrong(int) which prints if a number is an Armstrong number or not. 153 is an Armstrong number. 
+5.	Write a program to accept a number and check and display whether it is a spy number or not. (A number is spy if the sum of its digits equals the product of its digits.) Example: consider the number 1124, Sum of the digits = 1 + 1 + 2 + 4 = 8 Product of the digits = 1 X 1X 2 X 4 = 8
+6.	Design a class SplitDigits with the following method: squareDigits(int) – Print the square of each digit. Example: If the number is 42316 then the output is 36, 1, 9, 4, 16
+7.	Write a Java program to read a number, count and print the number of digits.
+ For example: If number is 34562 Output 34562 is a 5 digit number
+ Define a function to count the digits and print
+8.	Define a class Divisors to print the divisors of a number. Define a function printSumOfDivisors(int) – to print the divisors of a number.
+For example: if the number is 10 then the sum of the divisors is 1+2+5+10=18
+9.	Write a program to compute the discount according to the given conditions for the purchase of laptop. Define a function input() – to take the price of the laptop. Define a function calculateCharge (double price) – to calculate the charge according to the following condition.
+ 
+10.	Define a function square(int) which takes one integer value squares and prints the result. Another function cube(int) which cubes and prints
+11.	Define a function sum(int,double) which takes one integer and one double value, adds and prints the result.
+12.	Define a function isCapital(char) – which accepts a character and prints if it is a capital letter or not.
+13.	Define a function isVowel(char) – to print if a character is a vowel or a consonant.
+14.	 Define a function toSmallLetter(char) – which takes a character and converts it into a small letter
+
+Strings
+1.	To check the string how many times the character is printed in the string
+Example:  String s=”success”
+Ch=’s’
+Output :
+No of s present is=3
+
+2.	To count no of vowels in the given string and display it.
+Example :String s=”computer”
+No. of vowels=3
+The vowels are=o u e
+3.	Write a program to get input in a string ,convert
+into uppercase and print separate lines
+example : India is my country
+output:
+INDIA
+IS
+MY
+COUNTRY
+4.	Define a function to accept string input and print it reverse and to find no.of.vowels in the string
+EX:beautiful      o/p lufituaeb  no.voewls=5
+5.	Write a program to input a sentence and print the number of characters found in the longest word of the given sentence. For example, if S=“India is my country” then the output should be: Longest word – country
+Oops tasks
+1.	Class and Object Creation: Create a class called Car with attributes such as make, model, and year. Create objects of this class and demonstrate how to initialize their attributes and access them.
+2.	Create an interface called Animal with a method makeSound(). Implement this interface with classes such as Dog, Cat, and Cow, each providing their own implementation of the makeSound() method.
+3.	Create a class called Employee with private attributes such as name, id, and salary. Provide public methods to set and get these attributes in a controlled manner.
+4.	Create an abstract class called BankAccount with abstract methods like deposit() and withdraw(). Implement this class with concrete classes such as SavingsAccount and CheckingAccount.
+5.	Design a class to overload a function check( ) as follows:
+(i)	void check (String str , char ch ) - to find and print the frequency of a character in a string. Example : Input: Output: str = "success" number of s present is =3 ch = 's'
+(ii)	 void check(String s1) - to display only vowels from string s1, after converting it to lower case. Example : Input: s1 ="computer" Output : o u e
+6.	PROGRAM – MOVIE-MAGIC
+ Define a class named movieMagic with the following description:
+ Instance variables/data members:
+ int year - to store the year of release of a movie
+ String title - to store the title of the movie float rating - to store the popularity rating of the movie (minimum rating=0.0 and maximum rating=5.0)
+ Member methods: 
+(i)	movieMagic() Default constructor to initialize numeric data members to 0 and String data member to "". 
+(ii)	 void accept() To input and store year, title and rating. 
+(iii)	void display() To display the title of a movie and a message based on the rating as per the table below. Write a main method to create an object of the class and call the above member methods.
+ 
+  
+
